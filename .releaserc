@@ -1,6 +1,6 @@
 {
      "branches": "main",
-     "repositoryUrl": "https://github.com/embesozzi/java-semantic-release",
+     "repositoryUrl": "https://github.com/Lucas-Desouza/semver-springboot",
      "debug": "true",
      "plugins": [
         "@semantic-release/commit-analyzer",
