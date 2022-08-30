@@ -28,14 +28,7 @@
             }
         ],
         [
-            "@semantic-release/github",
-            {
-                "assets": [
-                    {
-                        "path": "release/**"
-                    }
-                ]
-            }
+            "@semantic-release/github"
         ]
     ]
 }
