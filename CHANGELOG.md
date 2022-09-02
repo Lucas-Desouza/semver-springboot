@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.1](https://github.com/Lucas-Desouza/semver-springboot/compare/v1.0.0...v1.0.1) (2022-08-30)
+
+
+### Bug Fixes
+
+* remove assets ([4aaa4fd](https://github.com/Lucas-Desouza/semver-springboot/commit/4aaa4fdf4c267b1f7d356fd6217b50390962fbd8))
+
 # 1.0.0 (2022-08-30)
 
 
