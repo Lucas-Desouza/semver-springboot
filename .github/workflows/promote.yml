@@ -1,4 +1,4 @@
-name: Java Semantic Release Example
+name: Promote
 on:
   push:
     branches:
@@ -14,5 +14,5 @@ jobs:
         id: previoustag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
         with:
-          fallback: 1.0.0
+          fallback: 0.0.0
       - run: echo ${{ steps.previoustag.outputs.tag }}
