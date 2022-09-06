@@ -1,34 +1,15 @@
 {
-     "branches": "int",
+     "branches": "integration",
      "repositoryUrl": "https://github.com/Lucas-Desouza/semver-springboot",
      "debug": "true",
      "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         [
-            "@semantic-release/changelog",
-            {
-                "changelogFile": "CHANGELOG.md",
-                "changelogTitle": "# Semantic Versioning Changelog"
-            }
-        ],
-        [
             "@semantic-release/exec",
             {
                 "prepareCmd": "./updateVersion.sh ${nextRelease.version}"
             }
-        ],
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "CHANGELOG.md",
-                    "pom.xml"
-                ]
-            }
-        ],
-        [
-            "@semantic-release/github"
         ]
     ]
 }

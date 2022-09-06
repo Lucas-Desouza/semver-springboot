@@ -2,7 +2,7 @@ name: Promote
 on:
   push:
     branches:
-      - int
+      - main
 jobs:
   build-upload-release:
     runs-on: ubuntu-latest
