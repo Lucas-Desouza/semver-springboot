@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+# [1.1.0](https://github.com/Lucas-Desouza/semver-springboot/compare/v1.0.1...v1.1.0) (2022-09-06)
+
+
+### Bug Fixes
+
+* testing new tagging approach ([ec619cf](https://github.com/Lucas-Desouza/semver-springboot/commit/ec619cfc1e95caaaefeb8c2c4eecc302476f9256))
+
+
+### Features
+
+* testing output ([76bc4be](https://github.com/Lucas-Desouza/semver-springboot/commit/76bc4be33c7898afef4a00c39ae0239491c473b7))
+
 ## [1.0.1](https://github.com/Lucas-Desouza/semver-springboot/compare/v1.0.0...v1.0.1) (2022-08-30)
 
 
