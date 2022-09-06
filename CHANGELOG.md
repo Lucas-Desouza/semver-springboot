@@ -5,9 +5,6 @@
 
 ### Bug Fixes
 
-* testing new tagging approach ([ec619cf](https://github.com/Lucas-Desouza/semver-springboot/commit/ec619cfc1e95caaaefeb8c2c4eecc302476f9256))
-
-
 ### Features
 
 * testing output ([76bc4be](https://github.com/Lucas-Desouza/semver-springboot/commit/76bc4be33c7898afef4a00c39ae0239491c473b7))
