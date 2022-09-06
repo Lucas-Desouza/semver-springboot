@@ -1,7 +1,9 @@
 # Semantic Versioning Changelog
 
-# [1.1.0](https://github.com/Lucas-Desouza/semver-springboot/compare/v1.0.1...v1.1.0) (2022-09-02)
+# [1.1.0](https://github.com/Lucas-Desouza/semver-springboot/compare/v1.0.1...v1.1.0) (2022-09-06)
 
+
+### Bug Fixes
 
 ### Features
 
