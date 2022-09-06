@@ -1,0 +1,18 @@
+name: Java Semantic Release Example
+on:
+  push:
+    branches:
+      - int
+jobs:
+  build-upload-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: 'Get Previous tag'
+        id: previoustag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        with:
+          fallback: 1.0.0
+      - run: echo ${{ steps.previoustag.outputs.tag }}
