@@ -26,4 +26,5 @@ jobs:
         run: chmod +x ./updateVersion.sh && npx semantic-release
       - name: Check version number
         run: echo ${{ steps.release.outputs.version }}
+
         
