@@ -1,8 +1,8 @@
-name: Java Semantic Release Example
+name: Release
 on:
   push:
     branches:
-      - int
+      - integration
 jobs:
   build-upload-release:
     if: "!contains(github.event.head_commit.message, 'skip ci')"
