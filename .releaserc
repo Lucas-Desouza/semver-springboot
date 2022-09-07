@@ -9,10 +9,9 @@
             "@semantic-release/exec",
             {
                 "prepareCmd": "./updateVersion.sh ${nextRelease.version}",
-                "publish": "echo \"RAN THE PUBLISH SCRIPT\"",
-                "success": "echo \"RAN THE SUCCESS SCRIPT\"",
-                "fail": "echo \"RAN THE FAIL SCRIPT\"",
-                "prepare": "echo \"RAN THE PREPARE SCRIPT\""
+                "publishCmd": "echo \"RAN THE PUBLISH SCRIPT\"",
+                "successCmd": "echo \"RAN THE SUCCESS SCRIPT\"",
+                "failCmd": "echo \"RAN THE FAIL SCRIPT\"",
             }
         ]
     ]
